@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Belfast, United Kingdom, GMT",
   locationLink: "https://www.google.com/maps/place/belfast",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Spanish Full Stack Engineer based in UK. Building websites that make your dreams come true! Or at least a good laugh 👨🏻‍💻",
   summary:
     "As a full stack engineer, I have worked on a wide range of projects, from small businesses to large enterprises. I have experience in web technologies and building products from scratch. I am a self-motivated person who loves to learn new things and share my knowledge with others.",
   avatarUrl: "https://salvagr.com/i/avatar.jpg",
