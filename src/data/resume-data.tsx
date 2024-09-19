@@ -158,8 +158,8 @@ export const RESUME_DATA = {
         "App that helps YouTubers create better videos by showing them which parts of their videos are the most engaging for their audience",
       logo: MonitoLogo,
       link: {
-        label: "movi-ai.vercel.app/",
-        href: "https://github.com/salvaoo/moviAI",
+        label: "YouTube Retention Tool",
+        href: "https://github.com/salvaoo/YouTube-Retention-Tool",
       },
     },
   ],
