@@ -180,6 +180,25 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@openpanel/nextjs@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@openpanel/nextjs/-/nextjs-1.0.3.tgz#5e1c95d200b7b6244664ff0df6a17413c56fcd83"
+  integrity sha512-Fu6hG8rm4rT7IudYL/o7RSBzZZ3L2AWyxzba/eDDxaYjrPMsoGZl5CC/VOrp27WePua49bduS/mq+oIp4RgR5g==
+  dependencies:
+    "@openpanel/web" "1.0.0"
+
+"@openpanel/sdk@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@openpanel/sdk/-/sdk-1.0.0.tgz#f92a40a9f8accc855e1d063182751f8e9eab469f"
+  integrity sha512-FNmmfjdXoC/VHEjA+WkrQ4lyM5lxEmV7xDd57uj4E+lIS0sU3DLG2mV/dpS8AscnZbUvuMn3kPhiLCqYzuv/gg==
+
+"@openpanel/web@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@openpanel/web/-/web-1.0.0.tgz#ce340b958e41a264bfd4483528af206eb8fbcfeb"
+  integrity sha512-ipY5hYWWrzPDwi1BtzyNn1d+Ly1gjujpmLvqO6oMKOhbNT8CwV9dIObZjyhzckaSMS8qYII9pLDIU1HCRysEDg==
+  dependencies:
+    "@openpanel/sdk" "1.0.0"
+
 "@radix-ui/primitive@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@radix-ui/primitive/-/primitive-1.0.0.tgz#e1d8ef30b10ea10e69c76e896f608d9276352253"

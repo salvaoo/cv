@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
+import { OpenPanelComponent } from '@openpanel/nextjs';
 
 import "./globals.css";
 import React from "react";
@@ -24,7 +24,16 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body>{children}</body>
-      <Analytics />
+      {process.env.NODE_ENV === 'production' && (
+        <OpenPanelComponent
+        clientId="38367d47-a61c-41ba-82a5-66c9f909aaa0"
+        trackScreenViews={true}
+        trackAttributes={true}
+        trackOutgoingLinks={true}
+        // If you have a user id, you can pass it here to identify the user
+        // profileId={'123'}
+      />
+      )}
     </html>
   );
 }
