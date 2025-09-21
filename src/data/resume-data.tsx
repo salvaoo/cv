@@ -114,6 +114,16 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Ftens",
+      techStack: ["Side Project", "TypeScript", "Next.js", "Tailwind CSS", "AWS", "Docker", "S3"],
+      description: "Ftens is a platform created to help professionals photographer to have their own website with albums and a portfolio of their work.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "ftens.com",
+        href: "https://ftens.com/",
+      },
+    },
+    {
       title: "Edia Healthcare",
       techStack: [
         "Side Project",
